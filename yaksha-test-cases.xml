@@ -122,6 +122,158 @@
   <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
     <test-case-type>Boundary</test-case-type>
     <expected-ouput>true</expected-ouput>
+    <name>viewpolicycomponentShouldCreate</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>viewpolicycomponentBoundaryShouldHaveATitle</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>viewpolicycomponentBoundaryShouldHaveGetPolicyButton</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>viewpolicycomponentBoundaryShouldShowPolicyHeaderLength</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>viewpolicycomponentBoundaryShouldHaveTableHeaderPolicyId</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>viewpolicycomponentBoundaryShouldHaveTableHeaderQuoteId</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>viewpolicycomponentBoundaryShouldHaveTableHeaderPolicyEffective</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>viewpolicycomponentBoundaryShouldHaveTableHeaderPolicyEndDate</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>viewpolicycomponentBoundaryShouldHaveTableHeaderPolicyTerm</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>viewpolicycomponentBoundaryShouldHaveTableHeaderPolicyStatus</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Exception</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>viewpolicycomponentExceptionShouldBeCheckQuotesApi</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>registerusercomponentShouldCreate</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>registerusercomponentBoundaryFormInvalidWhenEmpty</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>registerusercomponentBoundaryUsernameFieldValidity</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>registerusercomponentBoundaryPasswordFieldValidity</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>registerusercomponentBoundaryConfirmpasswordFieldValidity</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>registerusercomponentBoundaryEmailFieldValidity</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>registerusercomponentBoundaryDobFieldValidity</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Functional</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>registerusercomponentBusinessShouldSubmitForm</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
     <name>viewquotecomponentShouldCreate</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
@@ -227,158 +379,6 @@
     <test-case-type>Exception</test-case-type>
     <expected-ouput>true</expected-ouput>
     <name>viewquotecomponentExceptionShouldBeCheckQuotesApi</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
-    <test-case-type>Boundary</test-case-type>
-    <expected-ouput>true</expected-ouput>
-    <name>registerusercomponentShouldCreate</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
-    <test-case-type>Boundary</test-case-type>
-    <expected-ouput>true</expected-ouput>
-    <name>registerusercomponentBoundaryFormInvalidWhenEmpty</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
-    <test-case-type>Boundary</test-case-type>
-    <expected-ouput>true</expected-ouput>
-    <name>registerusercomponentBoundaryUsernameFieldValidity</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
-    <test-case-type>Boundary</test-case-type>
-    <expected-ouput>true</expected-ouput>
-    <name>registerusercomponentBoundaryPasswordFieldValidity</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
-    <test-case-type>Boundary</test-case-type>
-    <expected-ouput>true</expected-ouput>
-    <name>registerusercomponentBoundaryConfirmpasswordFieldValidity</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
-    <test-case-type>Boundary</test-case-type>
-    <expected-ouput>true</expected-ouput>
-    <name>registerusercomponentBoundaryEmailFieldValidity</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
-    <test-case-type>Boundary</test-case-type>
-    <expected-ouput>true</expected-ouput>
-    <name>registerusercomponentBoundaryDobFieldValidity</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
-    <test-case-type>Functional</test-case-type>
-    <expected-ouput>true</expected-ouput>
-    <name>registerusercomponentBusinessShouldSubmitForm</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
-    <test-case-type>Boundary</test-case-type>
-    <expected-ouput>true</expected-ouput>
-    <name>viewpolicycomponentShouldCreate</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
-    <test-case-type>Boundary</test-case-type>
-    <expected-ouput>true</expected-ouput>
-    <name>viewpolicycomponentBoundaryShouldHaveATitle</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
-    <test-case-type>Boundary</test-case-type>
-    <expected-ouput>true</expected-ouput>
-    <name>viewpolicycomponentBoundaryShouldHaveGetPolicyButton</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
-    <test-case-type>Boundary</test-case-type>
-    <expected-ouput>true</expected-ouput>
-    <name>viewpolicycomponentBoundaryShouldShowPolicyHeaderLength</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
-    <test-case-type>Boundary</test-case-type>
-    <expected-ouput>true</expected-ouput>
-    <name>viewpolicycomponentBoundaryShouldHaveTableHeaderPolicyId</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
-    <test-case-type>Boundary</test-case-type>
-    <expected-ouput>true</expected-ouput>
-    <name>viewpolicycomponentBoundaryShouldHaveTableHeaderQuoteId</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
-    <test-case-type>Boundary</test-case-type>
-    <expected-ouput>true</expected-ouput>
-    <name>viewpolicycomponentBoundaryShouldHaveTableHeaderPolicyEffective</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
-    <test-case-type>Boundary</test-case-type>
-    <expected-ouput>true</expected-ouput>
-    <name>viewpolicycomponentBoundaryShouldHaveTableHeaderPolicyEndDate</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
-    <test-case-type>Boundary</test-case-type>
-    <expected-ouput>true</expected-ouput>
-    <name>viewpolicycomponentBoundaryShouldHaveTableHeaderPolicyTerm</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
-    <test-case-type>Boundary</test-case-type>
-    <expected-ouput>true</expected-ouput>
-    <name>viewpolicycomponentBoundaryShouldHaveTableHeaderPolicyStatus</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
-    <test-case-type>Exception</test-case-type>
-    <expected-ouput>true</expected-ouput>
-    <name>viewpolicycomponentExceptionShouldBeCheckQuotesApi</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
